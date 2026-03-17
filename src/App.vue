@@ -72,8 +72,20 @@
     </main>
 
     <!-- Footer -->
-    <footer class="border-t border-gray-800 px-8 py-4 flex items-center justify-between bg-gray-950">
-      <p class="text-xs text-gray-500 font-mono-dm">© 2026 Rachmawan and Lyla</p>
+    <footer class="border-t border-gray-800 px-8 py-4 flex items-center justify-between gap-6 bg-gray-950">
+      <div class="flex flex-col gap-1">
+        <p class="text-xs text-gray-500 font-mono-dm">© 2026 Rachmawan and Lyla</p>
+        <a
+          href="https://doi.org/10.1109/IC3INA68387.2025.11325422"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-xs text-gray-600 font-mono-dm hover:text-emerald-400 transition-colors"
+          title="Enhancing Breast Lesion Segmentation in Ultrasound Images"
+        >
+          📄 Enhancing Breast Lesion Segmentation in Ultrasound Images
+          <span class="text-gray-700"> · 10.1109/IC3INA68387.2025.11325422</span>
+        </a>
+      </div>
       <img
         src="/brin_logo.png"
         alt="BRIN Logo"
