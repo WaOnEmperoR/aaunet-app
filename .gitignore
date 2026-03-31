@@ -6,6 +6,8 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+sonar-project.properties
+.scannerwork
 
 node_modules
 dist
